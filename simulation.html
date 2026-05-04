@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vireon — Simulating...</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="simulation">
+
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+
+  <main class="container">
+
+    <header class="hero">
+      <h1 class="logo">Vireon</h1>
+      <p class="tagline">Watch your mind do its thing.</p>
+    </header>
+
+    <section class="thought-preview">
+      <p class="preview-label">You were thinking about:</p>
+      <blockquote class="preview-text" id="previewText">
+        Loading your thought...
+      </blockquote>
+    </section>
+
+    <section class="progress-section">
+      <div class="stage-info">
+        <span class="stage-label" id="stageLabel">Thinking</span>
+        <span class="stage-number" id="stageNumber">Level 1 / 5</span>
+      </div>
+
+      <div class="progress-bar-track">
+        <div class="progress-bar-fill" id="progressFill"></div>
+      </div>
+
+      <div class="stage-names">
+        <span>Thinking</span>
+        <span>Spiraling</span>
+        <span>Overanalyzing</span>
+        <span>Catastrophizing</span>
+        <span>Peak</span>
+      </div>
+    </section>
+
+    <section class="simulation-section">
+      <div class="level-badge" id="levelBadge">Level 1</div>
+      <div class="thought-box" id="thoughtBox">
+        <p class="thought-text" id="thoughtText"></p>
+      </div>
+    </section>
+
+    <section class="final-section" id="finalSection">
+      <div class="final-card">
+        <p class="final-emoji" id="finalEmoji">🌫️</p>
+        <p class="final-message" id="finalMessage"></p>
+        <p class="final-sub">— Vireon</p>
+      </div>
+
+      <div class="btn-group">
+        <button class="btn-primary" id="tryAgainBtn">Try Again</button>
+        <button class="btn-secondary" id="resetBtn">Reset</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Your thoughts are safe here. Probably.</p>
+      <p class="footer-credit">Vireon © 2025 · an overthinking space · by Hrelta</p>
+    </footer>
+
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

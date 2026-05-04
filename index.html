@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vireon</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="index">
+
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+
+  <main class="container">
+
+    <header class="hero">
+      <div class="logo-wrap">
+        <h1 class="logo">Vireon</h1>
+        <span class="logo-dot">.</span>
+      </div>
+      <p class="tagline">A loop you create in your own mind.</p>
+      <p class="subtitle">Let's see how far your mind can go.</p>
+    </header>
+
+    <section class="input-section">
+      <label for="thoughtInput" class="input-label">
+        What's on your mind right now?
+      </label>
+
+      <textarea
+        id="thoughtInput"
+        class="thought-input"
+        placeholder="e.g. I forgot to reply to that message three days ago..."
+        rows="4"
+        maxlength="300"
+      ></textarea>
+
+      <div class="input-meta">
+        <p class="error-msg" id="errorMsg">⚠️ Please enter a thought first.</p>
+        <span class="char-count" id="charCount">0 / 300</span>
+      </div>
+
+      <button class="btn-primary" id="startBtn">
+        Start Overthinking →
+      </button>
+
+      <p class="input-hint">No data is stored anywhere. This is just between you and your brain.</p>
+    </section>
+
+    <footer class="footer">
+      <p>Your thoughts are safe here. Probably.</p>
+      <p class="footer-credit">Vireon © 2025 · an overthinking space · by Hrelta</p>
+    </footer>
+
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
