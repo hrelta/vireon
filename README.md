@@ -4,6 +4,13 @@
 
 ---
 
+## 📸 Preview
+
+![Light Mode](./assets/preview-light.png)
+![Dark Mode](./assets/preview-dark.png)
+
+---
+
 ## ✨ About
 
 **Vireon** is a browser-based emotional simulation that turns your thoughts into an escalating overthinking spiral. Type a thought, watch your brain spiral through 5 levels, from rational to completely absurd, then get a sarcastic reality check at the end.
